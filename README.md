@@ -58,11 +58,13 @@ The model uses several technical indicators, including:
 
 ## Data
 
-The current analysis imports the source data from an Excel file.
+Historical equity prices are retrieved from Yahoo Finance using the
+`yfinance` Python package. The list of Dow Jones Industrial Average
+constituents is retrieved from Wikipedia.
 
-**Data source:** <ADD DATA SOURCE HERE>
+**Data source:** Yahoo Finance via `yfinance`; DJIA constituent list from Wikipedia
 
-**Observation period:** <ADD PERIOD HERE>
+**Observation period:** January 2002 – April 2023
 
 **Assets analysed:** <ADD ASSETS HERE>
 
